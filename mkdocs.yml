@@ -1,3 +1,6 @@
-site_name: My Docs
-# theme:
-#   name: material
+site_name: Codex 활용법
+theme:
+  name: material
+nav:
+  - 홈: index.md
+  - 시작하기: getting-started.md

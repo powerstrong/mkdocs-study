@@ -1,24 +1,17 @@
-# Welcome to MkDocs
+# Codex 소개
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+Codex는 GitHub 리포지토리와 연동하여 문서를 자동으로 생성하고 PR을 관리할 수 있는 도구입니다. 여기서는 Codex의 주요 기능과 기본 사용 방법을 설명합니다.
 
-## Commands
+## 주요 기능
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
+- **자동 문서 생성**: 리포지토리의 파일을 분석하여 문서와 예제를 자동으로 추출합니다.
+- **PR 코멘트 관리**: 변경 사항에 대한 설명을 자동으로 작성하여 코드 리뷰를 돕습니다.
+- **멀티 에이전트**: 여러 작업을 동시에 처리하도록 에이전트를 구성할 수 있습니다.
 
-## Project layout
+## 빠른 시작
 
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+1. Codex를 설치합니다.
+2. 리포지토리 루트에 설정 파일을 추가합니다.
+3. `codex run` 명령을 실행하여 문서를 생성합니다.
 
-# Test
-### triple sharp
-* is this ok?
-    - I think so.
-
-실시간으로도 볼수이따....
+자세한 내용은 [시작하기](getting-started.md) 페이지를 참고하세요.
